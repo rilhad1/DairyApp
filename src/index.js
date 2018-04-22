@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App.js';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import addList from  './Redux/reducers/addList.js'
+import allRedusers from  './Redux/reducers/index.js';
 
 import './index.css';
 
 
 export const store = createStore(
-    addList, 
+    allRedusers, 
     window.__REDUX_DEVTOOLS_EXTENSION__ && 
     window.__REDUX_DEVTOOLS_EXTENSION__()
     );

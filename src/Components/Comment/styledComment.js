@@ -67,7 +67,7 @@ export const PostItem = styled.li`
     align-items: flex-start;
     padding: 15px 0;
     border-bottom: 1px solid #F2F2F2;
-`
+`;
 
 export const P = styled.p`
     display: inline-block;
@@ -76,4 +76,4 @@ export const P = styled.p`
     font-size: 11px;
     font-weight: 500;
     color: #666666;
-`
+`;

@@ -2,7 +2,7 @@ import React from 'react';
 import CommentItem from './CommentItem.js';
 import CommentInput from './CommentInput.js';
 import { CommentDiv, CommentTitle, Ul } from './styledComment.js';
-import { connect } from "react-redux"
+import { connect } from 'react-redux';
 
 class CommentList extends React.Component{
     
@@ -36,14 +36,14 @@ class CommentList extends React.Component{
             </CommentDiv>
             );
     }
-};
+}
 
 
 const mapStateToProps = state => {
     return {
         commentPost: state.filter( item => item.isOpen )[0]
-    }
-}
+    };
+};
 
 
 export default connect(mapStateToProps)(CommentList);

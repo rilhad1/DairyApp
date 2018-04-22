@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextArea, Logo, Message } from './styledComment.js';
-import { addPost } from './../../Redux/actions/index.js'
-import { connect } from "react-redux"
+import { addPost } from './../../Redux/actions/index.js';
+import { connect } from "react-redux";
 
 class CommentInput extends React.Component {
     constructor(props) {

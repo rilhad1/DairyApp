@@ -7,7 +7,7 @@ const CommentItem = (props) => {
                 <Logo src={props.url}/>
                 <P>{props.post}</P>
             </PostItem>
-            )
+        );
 };
 
 export default CommentItem;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import {  Form, Input, ButtonSub  } from './styledItem.js';
 import { addListAction } from './../../Redux/actions/index.js';
 
@@ -33,4 +33,4 @@ class ItemNew extends React.Component {
   }
 }
 
-export default connect()(ItemNew)
+export default connect()(ItemNew);
